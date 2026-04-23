@@ -1,0 +1,28 @@
+---
+title: '2022 PEN-210 and OSWP Exam Review'
+date: '2022-12-17T10:12:29-04:00'
+layout: post
+author: overcast
+permalink: /2022/12/2022-pen-210-and-oswp-exam-review/
+tags: [certification, pentest, red team, Certification, Member Article, Opinion, Write-Up]
+---
+
+> **TL;DR:** A clutch win with three minutes to spare. Simple mistakes eat dozens of minutes. PEN-210 is an up-to-date course with content that aligns well with passing the OSWP. However, it does require you build and run your own lab.
+
+I won't recap what is covered in the [exam guide](https://help.offensive-security.com/hc/en-us/articles/360046904731-OSWP-Exam-Guide) and no spoilers. If you plan on taking any exam its guide is required reading. Simple mistakes eat dozens of minutes. That simple sentence summarizes my OSWP exam time. The exam environment was stable. Keep in mind that each wireless scenario takes about 15-20 minutes to fully bake and come online. If you've done any CTFs or virtual labs, honestly any work with systems automation at all, this should be common place by now. Still, during the exam the minutes seem to fly by for the student but slow down for the system build. Life of a user, am I right?
+
+My alloted exam time was 1 PM to 4:45 PM.
+
+The first wireless scenario took almost all of the time because I started with a different scenario than the default. This was a horrible idea as it took about 27 minutes to come online. But I was the most concerned about this target scenario as it had the most potential for variable configurations. I new it would eat the clock and had done so in both my lab and my first exam attempt. I also needed bio breaks and at least one touch base with the family during the exam window.
+
+So it was 1:15 PM when I was fully hands on keyboard staging my steps and 1:27 when I started attacking. Recon, enumeration, and exploitation went smoothly with no issues. The roadblock came with my initial access attempts and stayed with me until 4:16 PM. During that time I ran commands with debug enabled and troubleshot one change at a time. Then I reverted the scenario questioning its stability, bad call, which ate more time off the clock.
+
+But at 4:16 when the contents of proof.txt spilled onto the terminal I finally entered the flow. The hangup was a very simple mistake on my part and had absolutely nothing to do with the stability of the exam environment. Again, the exam environment was rock solid. The reveal to my mistake was found by rewatching the course video for that specific section and saw exactly what I had done wrong. If that wasn't it my dry erase board had several other, much more complex, options to try. I grabbed the required screenshots and logged the hash in the portal. With a quick run through my steps to reproduce in my report documentation to ensure nothing was left out I switched scenarios to another network and waited, leaving my terminal sessions with history as is. It was at this point I realized how often I clear the terminal in my normal workflow but I couldn't risk losing that information.
+
+While the second scenario booted I stubbed my report notes with every command I planned to execute. This is also the time where a significate pull to give up was hammering my mind. But I disciplined myself that I would follow my standard operating procedures until the VPN dropped. At 4:25 PM the second, default scenario was online and I was ready. Butter. At 4:39 PM the scenario2 proof.txt hash was mine. I took three minutes to verify screenshots, log the hash in the portal, and triple check my report steps. At 4:42 PM I ended the exam, thanked the proctor, and backed up my draft report. Then I went back to work.
+
+It's odd but I felt uneasy as if some data wiping maleficence was hunting my report while I finished out my workday and had an evening with the family. With the terminal windows and their respective history still available I started writing the report in earnest at about 9 PM. The final report was submitted to OffSec for grading around 11:30 PM. Two days later I received the email notification that I passed.
+
+The PEN-210 course is up-to-date and a nice blend of wireless theory, discussion of vulnerabilities, and walkthroughs of attacks. Currently, [the course](https://www.offensive-security.com/wifu-oswp/#course-info) is offered through one of the Offensive Security subscriptions with the cheapest being Learn Fundamentals at $799. The course content is written out in the portal as a series of easy to follow modules grouped by section. There are also narrated videos to accompany each written section if you prefer. Take a look at the syllabus PDF if you want to see the sections. My workflow focused primarily on the written content as copy/pasting to my notes was easier than manually typing out what was shown in the video.
+
+Let's take a second to discuss the labs. There are no labs provided by OffSec with the course. Each student needs to purchase their own router, wireless cards, and setup their own lab. [Suggested products are listed on the FAQ](https://help.offensive-security.com/hc/en-us/articles/360046454712-Offensive-Security-Wireless-Attacks-PEN-210-FAQ). I can see both sides to the argument here. I've done wireless assessments in the past and plan on more in the future so I already have a card. The expectation is that the student will need these items to continue their research and operations in this field after the exam. I get it. There's also an argument that can be made for the money spent on the course the tools should be provided. Again, I get it. For me personally my plan is for the lab to fall back into the DEF CON group as a wireless CTF and or, if the schedule permits, as a wireless workshop we'll host once a year.

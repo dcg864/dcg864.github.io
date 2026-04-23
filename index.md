@@ -1,4 +1,4 @@
 ---
-layout: default
-redirect_to: /blog/index.html
+layout: home
+title: DC864 &mdash; Upstate SC DEF CON Group
 ---

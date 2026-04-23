@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<section class="home-hero">
+  <h1 class="home-hero__title"># DC864</h1>
+  <p class="home-hero__tagline">Upstate South Carolina's DEF CON Group &mdash; hackers, makers, and curious humans of the Upstate.</p>
+  <p class="home-hero__meet">We meet the <strong>1st Thursday</strong> of every month at 6 PM ET &mdash; hybrid at <a href="https://joinopenworks.com/" target="_blank" rel="noopener">OpenWorks</a> and online.</p>
+  <p class="home-hero__cta">
+    <a class="btn" href="https://discord.gg/yc2xVAxwUc" target="_blank" rel="noopener">Join us on Discord</a>
+    <a class="btn" href="/about/">About DC864</a>
+  </p>
+</section>
+
+<section class="home-recent">
+  <h2># Recent Posts</h2>
+  <ul class="home-recent__list">
+    {% for post in site.posts limit:7 %}
+      <li class="home-recent__item">
+        <div class="home-recent__head">
+          <a class="home-recent__title" href="{{ post.url }}">{{ post.title }}</a>
+          <span class="home-recent__date">{{ post.date | date: "%Y-%m-%d" }}</span>
+        </div>
+        {% if post.tags %}
+          <div class="home-recent__tags">
+            {% for tag in post.tags limit:6 %}<a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>{% unless forloop.last %} &middot; {% endunless %}{% endfor %}
+          </div>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+  <p class="home-recent__more"><a href="/blog/">See all posts &rarr;</a></p>
+</section>
+
+<section class="home-cards">
+  <h2># Explore</h2>
+  <div class="home-cards__grid">
+    <a class="home-card" href="/about/">
+      <h3>About</h3>
+      <p>Our mission, interests, meeting schedule, and Code of Conduct.</p>
+    </a>
+    <a class="home-card" href="/career-notes/">
+      <h3>Career Notes</h3>
+      <p>A curated collection of advice for resumes, interviews, and growing a career in information security.</p>
+    </a>
+    <a class="home-card" href="/resources/">
+      <h3>Resources</h3>
+      <p>Conferences, past meeting schedules, and curated links for the community.</p>
+    </a>
+  </div>
+</section>

@@ -1,15 +1,17 @@
-<header class="header">
-    <div class="container">
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <div class="headerlogo" style="">
-            <div class="social-nav">
-            <a href='/index.html'><img class="getapp-nav-img" src='{{ site.baseurl }}/images/864.png'/></a>
-            </div>
-        </div>
-        <section id="nav">
-            <h2>&#164<a href="/index.html"><span></span>Home</a> &#164<a href="/about.html"><span></span>About</a></h2>
-        </section>
-        <h2></h2>
-        <h3>DefCon group of the Upstate</h3>
-    </div>
+{%- assign current = page.url | replace: '/index.html', '/' -%}
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-header__brand" href="/" aria-label="{{ site.title }} home">
+      <img class="site-header__logo" src="{{ '/images/864.png' | relative_url }}" alt="">
+      <span class="site-header__title">{{ site.title | default: site.github.repository_name }}</span>
+      <span class="site-header__tagline">DEF CON group of the Upstate</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/" class="site-nav__link"{% if current == '/' %} aria-current="page"{% endif %}>Home</a>
+      <a href="/blog/" class="site-nav__link"{% if current == '/blog/' %} aria-current="page"{% endif %}>Blog</a>
+      <a href="/about/" class="site-nav__link"{% if current == '/about/' %} aria-current="page"{% endif %}>About</a>
+      <a href="/career-notes/" class="site-nav__link"{% if current == '/career-notes/' %} aria-current="page"{% endif %}>Career Notes</a>
+      <a href="/resources/" class="site-nav__link"{% if current == '/resources/' %} aria-current="page"{% endif %}>Resources</a>
+    </nav>
+  </div>
 </header>

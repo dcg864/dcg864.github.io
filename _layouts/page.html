@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% if page.title %}<h1 class="page-title">{{ page.title }}</h1>{% endif %}
+
+{% assign toc_min = page.toc_h_min | default: 2 %}
+{% assign toc_max = page.toc_h_max | default: 2 %}
+{% if page.toc != false %}
+<nav class="page-toc" aria-label="Table of contents">
+  <h2 class="page-toc__heading">Contents</h2>
+  {% include toc.html html=content h_min=toc_min h_max=toc_max %}
+</nav>
+<hr>
+{% endif %}
+
+{{ content }}
