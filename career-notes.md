@@ -5,22 +5,21 @@ permalink: /career-notes/
 author: LukeTech
 ---
 
-<small>*Updated July 6, 2025*</small>
+<small>*Updated May 12, 2026*</small>
 
-This page contains a collection of notes compiled from many sources and many contributors to polish up your resume, prepare for an interview, ask great questions, and negotiate a solid salary.
+This page contains notes compiled from many sources and many contributors to clean up your resume, prepare for an interview, ask great questions, and negotiate a solid salary.
 
 ## Long-Term Strategy
 
-Careers are not built in a day; these are long games. Some ideas that may work for you:
+Careers are a long game. Some ideas that may work for you:
 
-- Plan for a new role or future in an existing role by analyzing job postings for the role you have or want; look for keywords, experience, requirements, certifications, skills, tools, software, etc.
-- Once you see the patterns, plan your training and experience around them.
-    - For example, if penetration testing is a goal, use Kali Linux often, get to know the system, the tools, and learn techniques. Test against your home network (wired/wireless).
-- If certifications are common but you don’t have time for in-depth study or funds for the exams, read, absorb, and learn the materials and terminology to get a sense of the basic body of knowledge for the particular certification.
-    - For example, Security+ or CISSP is foundational knowledge that any infosec professional should know. Study and know it, regardless of holding the certification.
-- Track and trend this over time to prepare for waves as they approach.
-- In the tech field, a 2- to 3-year future outlook is reasonable. In a year, things can change too rapidly to predict. In 4 or more years, it is difficult to predict the direction things will go.
+- Plan for a career change or future in an existing role by analyzing job postings for the role you want; look for keywords, experience, requirements, certifications, skills, tools, software, etc. Track these for several weeks or months.
 - Read job postings for work that you are interested in doing, and note the requirements, skills, experience, etc. Then learn, certify, or acquire those skills and experience to better prepare yourself for a role in six to twelve months in the future.
+- Once you see the patterns, plan your training and experience around them.
+    - For example, if penetration testing is a goal, use Kali Linux daily, get to know the system, the tools, and learn techniques. Test against your home network.
+- If certifications are common but you don’t have time for in-depth study or funds for the exams; then read, absorb, and learn the materials and terminology to get a sense of the basic body of knowledge.
+    - For example, Security+ or CISSP is foundational knowledge that infosec professionals know. Study and know the material, regardless of holding the certification.
+- In the tech field, a 2- to 3-year future outlook is reasonable. In 4 or more years, it is difficult to predict the direction things will go.
 
 ---
 
@@ -34,7 +33,7 @@ Based on: https://www.linkedin.com/feed/update/urn:li:activity:69301937349365227
 
 1. Find a job listing
 2. Research the company. Is it somewhere you would like to work?
-3. Target your resume for the job listing, address all requirements in your resume, and identify any gaps
+3. Target your resume for the job listing, address all requirements in your resume, and identify any gaps; use AI for this
 4. Identify the hiring manager and recruiter
 5. Identify anyone you know who works at that company, reach out to them, and ask for a brief phone call. Ask about what they do, the company as a whole, and for a referral. Consider reaching out to 3–4 people per company to chat and ask for referrals.
 6. Reach out to the recruiter and mention the ad number (or name) and the referral name
@@ -1321,6 +1320,7 @@ If the employer asks you to name a number, there’s no reason they shouldn’t 
 
 If you’re asked about their current salary, technically, it’s none of their business, but don’t say that. Turn the question around:
 
+- *“I'm currently interviewing for a salary in the range of X to Y”*
 - *“I’m not comfortable sharing that information, but I’m very excited about this job”*
 - *“Since I’m uncertain of the market conditions, could you share with me your pay range, and I can tell you if it’s in my range”*
 - *“My current employer is very generous, but I’m looking forward to the opportunity to work with your organization”*
@@ -1808,6 +1808,8 @@ Optimize Your Answers to Tech Job Interview Questions:
 Dice Ultimate Guide to a Successful Tech Career:  
 <https://www.dice.com/technologists/ebooks/the-ultimate-guide-to-a-successful-tech-career/>
 
-Dice Resources and Tools for Creating the Perfect Tech Resume
-
+Dice Resources and Tools for Creating the Perfect Tech Resume:
 <https://www.dice.com/career-advice/resources-and-tools-for-creating-the-perfect-tech-resume>
+
+Excellent post on tech interviews:
+<https://newsletter.pragmaticengineer.com/p/learnings-from-conducting-1000-interviews>
