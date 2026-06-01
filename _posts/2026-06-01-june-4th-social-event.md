@@ -1,6 +1,6 @@
 ---
 title: 'June 4th - Social Event'
-date: '2026-06-01T13:25:50-04:00'
+date: '2026-06-01T10:10:08.572Z'
 layout: post
 author: rbrins
 permalink: /2026/06/june-4th-social-event/
@@ -17,4 +17,5 @@ tags: [Meeting Announcement]
 **Type:** Hangout / Networking
 
 Join us June 4th for a social gathering at La Parilla. We won't have any specific speaker or presentation but come hang out and eat good food.
+
 [https://discord.gg/UWA7AD5H?event=1510855173856297030](Discord Event link to let us get a better headcount).
