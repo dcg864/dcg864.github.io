@@ -5,7 +5,7 @@ permalink: /career-notes/
 author: LukeTech
 ---
 
-<small>*Updated May 12, 2026*</small>
+<small>*Updated July 30, 2026*</small>
 
 This page contains notes compiled from many sources and many contributors to clean up your resume, prepare for an interview, ask great questions, and negotiate a solid salary.
 
@@ -895,9 +895,12 @@ Caveat: be very careful when using LLMs to generate text. Proofread it to ensure
 ## Questions to ask the interviewer about the role
 
 - Can you give examples of people who previously held this role, but were a bad fit, and why?
+- Who is the person on your team you wish you could clone?
 - What have past employees done to succeed in this position?
 - What did the person who held this role before me do that was appreciated but not required based on the job description?
 - What's the biggest pain point in the company/office/on your team, and what could I do to address it if I started tomorrow?
+- What is actually broken right now that you want your new hire to fix?
+- What's the part of this job people underestimate?
 - Why is the position open?
 - How would you describe an ideal candidate, and how do I compare?
 - How can the selected candidate make your life easier?
@@ -909,6 +912,7 @@ Caveat: be very careful when using LLMs to generate text. Proofread it to ensure
 - What type of person would NOT be successful in this role, and why?
 - Is there a common theme among employees who underperform?
 - What is your definition of success for this role? (What does success look like in this role? How is success measured?)
+- A year from now, what will make you say that this hire worked out?
 - What are the typical milestones or achievements that indicate success in this position?
 - Can you describe the typical day-to-day responsibilities of this position?
 - What is the rhythm of the work around here?
