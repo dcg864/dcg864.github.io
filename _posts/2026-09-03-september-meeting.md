@@ -1,6 +1,6 @@
 ---
 title: 'September 3rd - Conference Review'
-date: '2026-09-03T10:10:08.572Z'
+date: '2026-08-14T10:10:08Z'
 layout: post
 author: rbrins
 permalink: /2026/09/september-meeting/
